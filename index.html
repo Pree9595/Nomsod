@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แมวอ้วงนมดี - ร้านนมและของหวาน</title>
+    <meta name="description" content="แมวอ้วงนมดี ร้านนมและของหวานสุดอร่อย บรรยากาศดี เหมาะสำหรับวัยรุ่น สั่งเดลิเวอรี่หรือจองโต๊ะได้เลย">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Boxicons for icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <img src="logo.png" alt="โลโก้ แมวอ้วงนมดี">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">หน้าแรก</a></li>
+                <li><a href="#menu">เมนูแนะนำ</a></li>
+                <li><a href="#contact">ติดต่อเรา</a></li>
+            </ul>
+            <div class="mobile-menu-icon" id="menu-icon">
+                <i class='bx bx-menu'></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <!-- We use the new pink bakery image provided by the user -->
+        <div class="hero-bg" style="background-image: url('บรรยากาศในร้าน/pink_bakery.jpg');"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content fade-in-up">
+            <h1>เติมความหวาน <br><span class="highlight">ให้วันของคุณ 🌟</span></h1>
+            <p>อร่อยฟินกับนมสดแท้ 100% และของหวานหลากหลายเมนู ในบรรยากาศสุดชิลล์</p>
+            <div class="cta-group">
+                <a href="#order" class="btn btn-primary"><i class='bx bx-shopping-bag'></i> สั่งเดลิเวอรี่</a>
+                <a href="#contact" class="btn btn-secondary"><i class='bx bx-calendar-check'></i> จองโต๊ะ/สอบถาม</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Signature Menu Section -->
+    <section class="menu-section" id="menu">
+        <div class="container">
+            <div class="section-title fade-in-up">
+                <h2>เมนูซิกเนเจอร์ 🥤</h2>
+                <p>เมนูสุดฮิตที่ใครมาก็ต้องสั่ง!</p>
+            </div>
+
+            <div class="menu-grid">
+                <!-- Card 1 -->
+                <div class="menu-card reveal">
+                    <div class="card-image">
+                        <img src="เมนูร้าน/44318093_775478239458207_3282462492936110080_n.jpg" alt="ปังปิ้งราดช็อกโกแลต">
+                        <div class="price-tag">฿45</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>ปังปิ้งราดช็อกโกแลต <br><small>Chocolate Toast</small></h3>
+                        <p>ขนมปังปิ้งกรอบนอกนุ่มใน ราดซอสช็อกโกแลตเข้มข้น <br><em>Crispy toast topped with rich chocolate sauce.</em></p>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="menu-card reveal">
+                    <div class="card-image">
+                        <img src="เมนูร้าน/44342331_775477832791581_5534039281854578688_n.jpg" alt="นักเก็ตไก่กรอบ">
+                        <div class="price-tag">฿59</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>นักเก็ตไก่กรอบ <br><small>Crispy Chicken Nuggets</small></h3>
+                        <p>ของทานเล่นสุดฮิต ทอดร้อนๆ กรอบอร่อยเคี้ยวเพลิน <br><em>Popular hot and crispy fried snack.</em></p>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="menu-card reveal">
+                    <div class="card-image">
+                        <img src="เมนูร้าน/492412841_2527023350970345_4918805182070823305_n.jpg" alt="ปังปิ้งแยมส้ม">
+                        <div class="price-tag">฿45</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>ปังปิ้งแยมส้ม <br><small>Orange Jam Toast</small></h3>
+                        <p>ขนมปังปิ้งหอมๆ ทาด้วยแยมส้มรสเปรี้ยวอมหวาน <br><em>Fragrant toast spread with sweet and sour orange jam.</em></p>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="menu-card reveal">
+                    <div class="card-image">
+                        <img src="เมนูร้าน/492846847_2529634777375869_7035050521733813971_n.jpg" alt="ปังเย็นนมชมพู">
+                        <div class="price-tag">฿89</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>ปังเย็นนมชมพู <br><small>Pink Milk Shaved Ice</small></h3>
+                        <p>น้ำแข็งใสเย็นชื่นใจ ท็อปปิ้งแน่นๆ พร้อมขนมปัง <br><em>Refreshing shaved ice with fully loaded toppings and bread.</em></p>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="menu-card reveal">
+                    <div class="card-image">
+                        <img src="เมนูร้าน/492942909_2528367987502548_811911000064678643_n.jpg" alt="เฟรนช์ฟรายส์">
+                        <div class="price-tag">฿59</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>เฟรนช์ฟรายส์ <br><small>French Fries</small></h3>
+                        <p>มันฝรั่งทอดกรอบ เสิร์ฟพร้อมซอสหลากรสชาติ <br><em>Crispy potato fries served with various sauces.</em></p>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="menu-card reveal">
+                    <div class="card-image">
+                        <img src="เมนูร้าน/493473120_2528534147485932_1438962868243656304_n.jpg" alt="นมชมพูเย็น">
+                        <div class="price-tag">฿50</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>นมชมพูเย็น <br><small>Iced Pink Milk</small></h3>
+                        <p>นมสดผสมน้ำหวานสีชมพู หอมหวานชื่นใจ <br><em>Fresh milk mixed with pink syrup, sweet and refreshing.</em></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="view-all-btn-container reveal">
+                <a href="#all-menu" class="btn btn-outline">ดูเมนูทั้งหมด</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container footer-content">
+            <div class="footer-info reveal">
+                <img src="logo.png" alt="โลโก้ แมวอ้วงนมดี" class="footer-logo">
+                <p>ร้านแมวอ้วงนมดี ส่งมอบความอร่อย สดชื่น ด้วยวัตถุดิบคุณภาพในทุกๆ วัน 💖<br>
+                <em>Chubby Cat Good Milk delivers deliciousness and freshness with high-quality ingredients every day. 💖</em></p>
+                <div class="social-icons">
+                    <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-line'></i></a>
+                    <a href="#"><i class='bx bxl-tiktok'></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-contact reveal">
+                <h3>ติดต่อเรา / Contact Us</h3>
+                <ul>
+                    <li><i class='bx bx-map'></i> 123 ถนนตัวอย่าง แขวงจำลอง เขตทดสอบ กรุงเทพฯ 10000 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;123 Sample Rd, Mockup Subdistrict, Test District, Bangkok 10000</li>
+                    <li><i class='bx bx-time-five'></i> เปิดบริการทุกวัน: 16:00 - 23:00 น. <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Open Daily: 4:00 PM - 11:00 PM</li>
+                    <li><i class='bx bx-phone'></i> 08X-XXX-XXXX</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 แมวอ้วงนมดี (Chubby Cat Good Milk). All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
